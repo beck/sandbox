@@ -1,0 +1,8 @@
+msgid "Be Found"
+msgstr "Faites-vous trouver"
+
+msgid "Board of Advisors"
+msgstr "Comité de conseillers"
+
+msgid "Sandbox"
+msgstr ""
