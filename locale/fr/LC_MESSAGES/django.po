@@ -21,4 +21,5 @@ msgstr "Comité de conseillers"
 
 msgid "Sandbox"
 msgid_plural "Sandboxes"
-msgstr ""
+msgstr[0] ""
+msgstr[1] ""
