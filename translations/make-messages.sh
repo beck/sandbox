@@ -40,9 +40,14 @@ done
 
 # msgmerge & msgfmt pot > po
 echo -n "Updating messages .."
-options="--sort-output --no-location --width=80"
-po='app/locale/es/LC_MESSAGES/messages.po'
+
+podir="app/locale/es/LC_MESSAGES"
+domain="messages"
+mkdir -p "$podir"
+po="$podir/$domain.po"
 touch "$po"
+
+options="--sort-output --no-location --width=80"
 msgmerge $po $pot $options -o $po.tmp
 mv $po.tmp $po
 mo=${po%.*}.mo
