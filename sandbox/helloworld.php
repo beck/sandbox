@@ -5,3 +5,5 @@ bindtextdomain('messages', dirname(__FILE__).'/locale');
 
 echo _("Hello World");
 echo "\n";
+
+echo _("   Frosty the ☃, is a fairytale, they say.   ");
