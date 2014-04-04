@@ -6,4 +6,4 @@
 
 ## view output
 
-`php translations/app/helloworld.php`
+`php sandbox/helloworld.php`

@@ -1,8 +1,9 @@
 #!/bin/bash
 set -eu
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 
-pot='messages.pot'
+mkdir -p 'sandbox/locale/template'
+pot='sandbox/locale/template/messages.pot'
 touch $pot
 
 function mygettext {
@@ -33,7 +34,7 @@ function mygettext {
 
 # update po template
 echo "Updating template."
-for fname in $(find . -name '*.html' -or -name '*.php')
+for fname in $(find sandbox -name '*.html' -or -name '*.php')
 do
     mygettext "$fname"
 done
@@ -41,7 +42,7 @@ done
 # msgmerge & msgfmt pot > po
 echo -n "Updating messages .."
 
-podir="app/locale/es/LC_MESSAGES"
+podir="sandbox/locale/es/LC_MESSAGES"
 domain="messages"
 mkdir -p "$podir"
 po="$podir/$domain.po"
