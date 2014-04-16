@@ -13,6 +13,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 1.4-dev\n"
 
+msgid "Hello World"
+msgstr "Bonjour tout le monde"
+
 msgid "Be Found"
 msgstr "Faites-vous trouver"
 
