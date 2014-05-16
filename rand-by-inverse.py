@@ -42,6 +42,35 @@ def weighted_choice_sub(weights):
         if rnd < 0:
             return i
 
+
+# From: http://eli.thegreenplace.net/2010/01/22/weighted-random-generation-in-python/
+def weighted_choice_sub(weights):
+    rnd = random.random() * sum(weights)
+    for i, w in enumerate(weights):
+        rnd -= w
+        if rnd < 0:
+            return i
+
+def get_weight(db, biggest_size):
+    """Return a weight where the smallest db has the greatest weight.
+
+    We include a "factor" because if we do not increase biggest_size, our
+    largest db will get a weight of zero,  guaranteeing it is never selected.
+
+    The factor must >1, and the closer to 1, the closer to zero the largest
+    db will be weighted.  As the larger db's weight drops closer to zero,
+    the faster they equalize.  tldr: closer to 1 == faster equalize
+
+    """
+    factor = 1.1 # must be >1, closer to 1 == the faster the dbs equalize
+    return biggest_size * factor - size
+
+dbs = [DB(name=k, size=v) for k,v in sizes.items()]
+biggest_size = max((db.size for db in dbs))
+weights = [get_weight(db, biggest_size) for db in dbs]
+selection = weighted_choice_sub(weights)
+db = dbs[selection].name
+
 def main():
     DB = namedtuple('DB', ['name', 'size'])
     db_array = [DB(name='a', size=1), DB(name='b', size=8), DB(name='c', size=1)]
