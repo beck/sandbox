@@ -13,7 +13,7 @@ Sefano can see this... right?!
   I miss my newlines
 
 * _**Ending colon**_:
-  Such newline!
+  No newlines :(
 
 
 ## Translations
