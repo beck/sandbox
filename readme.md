@@ -13,6 +13,15 @@ Sefano can see this... right?!
 * _**[Ending colon][nope]**_:
   No newlines :(
 
+HTML in MD is a bummer:
+
+<dl>
+  <dt>[Trailing Whitespace][nope]</dt>
+  <dd>Trailing whitespace is annoying an a poor way to do newlines</dd>
+  <dt>[No Whitespace][nope]</dt>
+  <dd>I miss my newlines</dd>
+</dl>
+
 Maybe just use headings?
 
 ### [Trailing Whitespace][nope]
