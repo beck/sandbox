@@ -9,9 +9,9 @@ Sefano can see this... right?!
 This is what I want:
 
 <dl>
-  <dt><a>Dinosaur</a></dt>
+  <dt><a href="http://en.wikipedia.org/wiki/Dinosaur">Dinosaur</a></dt>
   <dd>They first appeared during the Triassic period, 231.4 million years ago</dd>
-  <dt><a>Chair</a></dt>
+  <dt><a href="http://en.wikipedia.org/wiki/Chair">Chair</a></dt>
   <dd>A chair is a piece of furniture with a raised surface used to sit on</dd>
 </dl>
 
