@@ -6,15 +6,16 @@ Sefano can see this... right?!
 
 ## Newlines
 
-* _**Trailing Whitespace**_   
+* _**[Trailing Whitespace][nope]**_   
   Trailing whitespace is annoying an a poor way to do newlines
 
-* _**No Whitespace**_
+* _**[No Whitespace][nope]**_
   I miss my newlines
 
-* _**Ending colon**_:
+* _**[Ending colon][nope]**_:
   No newlines :(
 
+[nope]: #nope
 
 ## Translations
 
