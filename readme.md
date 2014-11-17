@@ -4,7 +4,27 @@ Sandbox for random stuff
 
 Sefano can see this... right?!
 
-## Newlines
+## Faking a Definition list
+
+This is what I want:
+
+<dl>
+  <dt><a>Dinosaur</a></dt>
+  <dd>They first appeared during the Triassic period, 231.4 million years ago</dd>
+  <dt><a>Chair</a></dt>
+  <dd>A chair is a piece of furniture with a raised surface used to sit on</dd>
+</dl>
+
+But html in in md is gross and you have to make it all html, otherwise:
+
+<dl>
+  <dt>[Dinosaur](http://en.wikipedia.org/wiki/Dinosaur)</dt>
+  <dd>They first appeared during the Triassic period, 231.4 million years ago</dd>
+  <dt>[Chair](http://en.wikipedia.org/wiki/Chair)</dt>
+  <dd>A chair is a piece of furniture with a raised surface used to sit on</dd>
+</dl>
+
+Faking with markdown:
 
 * _**[Trailing Whitespace][nope]**_   
   Trailing whitespace is annoying an a poor way to do newlines
@@ -13,16 +33,7 @@ Sefano can see this... right?!
 * _**[Ending colon][nope]**_:
   No newlines :(
 
-HTML in MD is a bummer, and you can not mix the two.  Bleh:
-
-<dl>
-  <dt>[Trailing Whitespace][nope]</dt>
-  <dd>Trailing whitespace is annoying an a poor way to do newlines</dd>
-  <dt>[No Whitespace][nope]</dt>
-  <dd>I miss my newlines</dd>
-</dl>
-
-Maybe just use headings?
+Maybe just use headings:
 
 ### [Trailing Whitespace][nope]
 Trailing whitespace is annoying an a poor way to do newlines
