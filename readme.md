@@ -13,7 +13,7 @@ Sefano can see this... right?!
 * _**[Ending colon][nope]**_:
   No newlines :(
 
-HTML in MD is a bummer:
+HTML in MD is a bummer, and you can not mix the two.  Bleh:
 
 <dl>
   <dt>[Trailing Whitespace][nope]</dt>
