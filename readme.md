@@ -15,6 +15,14 @@ Sefano can see this... right?!
 * _**[Ending colon][nope]**_:
   No newlines :(
 
+Maybe just use headings?
+
+### [Trailing Whitespace][nope]
+Trailing whitespace is annoying an a poor way to do newlines
+
+### [No Whitespace][nope]
+I miss my newlines
+
 [nope]: #nope
 
 ## Translations
