@@ -52,3 +52,7 @@ I miss my newlines
 ### view output
 
 `LC_ALL=es php sandbox/helloworld.php`
+
+## Cat
+
+Cat.
