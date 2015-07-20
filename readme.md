@@ -26,7 +26,7 @@ Sefano can see this... right?!
 
 ### Faking with markdown
 
-* _**[Trailing Whitespace][nope]**_   
+* _**[Trailing Whitespace][nope]**_
   Trailing whitespace is annoying an a poor way to do newlines
 * _**[No Whitespace][nope]**_
   I miss my newlines
@@ -53,6 +53,6 @@ I miss my newlines
 
 `LC_ALL=es php sandbox/helloworld.php`
 
-## Cat
+## Cats and Dogs
 
-Cat.
+Cats cat.  Dogs dog.
