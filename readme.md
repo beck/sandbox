@@ -55,4 +55,4 @@ I miss my newlines
 
 ## Cats and Dogs
 
-Cats cat.  Dogs dog.
+Cats cat.  Dogs dog.  And dogs.
