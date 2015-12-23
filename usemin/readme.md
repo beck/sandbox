@@ -1,0 +1,1 @@
+usemin minimal project
