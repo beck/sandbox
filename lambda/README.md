@@ -9,3 +9,13 @@ brew install aws-sam-cli
 sam init --runtime go
 ```
 
+eerrrrrr this failed:
+```
+sam build
+```
+Woof these docs are harsh.
+
+This worked:
+```
+go build -o hello-world/hello-world ./hello-world
+```
