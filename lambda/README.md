@@ -15,7 +15,11 @@ sam build
 ```
 Woof these docs are harsh.
 
-This worked:
+Hack in `build.sh`
+
+Run dev:
 ```
-go build -o hello-world/hello-world ./hello-world
+cd sam-app
+sam local start-api
+open http://127.0.0.1:3000/hello
 ```
