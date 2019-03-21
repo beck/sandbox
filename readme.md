@@ -53,6 +53,10 @@ I miss my newlines
 
 `LC_ALL=es php sandbox/helloworld.php`
 
+## Misc
+
+🔥
+
 ## Cats and Dogs
 
 Cats cat.  Dogs dog. And cats. And dogs. And cats.
