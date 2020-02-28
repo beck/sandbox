@@ -2,7 +2,7 @@
 
 Sandbox for random stuff
 
-## <table><td>Thinking</td><td align=right>2020-02-28</td></table>
+## <table width=100% border=0><td>Thinking</td><td align=right>2020-02-28</td></table>
 
 🤔
 
