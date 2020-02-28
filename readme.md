@@ -61,7 +61,7 @@ I miss my newlines
 
 🔥🔥
 
-## **Misc** <sub>2020-02-28</sub>
+## Misc <br><sub>2020-02-28</sub>
 
 🔥🔥🔥
 
