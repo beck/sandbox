@@ -61,7 +61,7 @@ I miss my newlines
 
 🔥🔥
 
-## Misc <div style="text-align: right">2020-02-28</div>
+## Misc <span>2020-02-28</span>
 
 🔥🔥🔥
 
