@@ -2,7 +2,7 @@
 
 Sandbox for random stuff
 
-## Thinking <div align=right>2020-02-28</div>
+## Thinking <div align=right><sub>2020-02-28</sub></div>
 
 🤔
 
