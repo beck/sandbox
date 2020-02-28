@@ -2,7 +2,9 @@
 
 Sandbox for random stuff
 
-Sefano can see this... right?!
+## Thinking <div align=right>2020-02-28</div>
+
+🤔
 
 ## Faking a Definition list
 
@@ -60,10 +62,6 @@ I miss my newlines
 ## Misc
 
 🔥🔥
-
-## Misc <span>2020-02-28</span>
-
-🔥🔥🔥
 
 ## Cats and Dogs
 
